@@ -1,12 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+}
+
+
+.story{
+    padding: 3px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.email_button{
+    display: block;
+    margin: 50;
+    width: 50%;
+    height: 50px;
+    width: 30px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+P {
+    text-align:Center;
+}
+
+P2 {
+    text-align: left;
+    width: 25%;
+
+}
 H1 {
     font-weight: bolder;
-    font-size: 24px;
-    background-color: #b0cdf7;
+    font-size: 36px;
+    background-color: #d67e96;
+    color: #fae5e8;
 }
 li {
-    font-weight: bolder;
-    background-color:#b0cdf7;
+   font-size: 16px;
+   font-weight: bolder;
+    color:#912635;
 }
 html {
     background-color: #ecc3ce;
+}
+
+
+.story img{
+    width:275px;
+    float: center;
+    clear: center;
+    padding: 15px;
+
+}
+
+img {
+     border: 5px solid #912635;
 }
